@@ -27,4 +27,8 @@ class GetRequester
 end 
 
 hash = JSON.parse(resp.body, symbolize_names:true)
-poke_arr = hash[:results]
+arr = hash[:results]
+
+instances = arr.map do |hash|
+    GetRequester.new(hash)
+end
