@@ -14,7 +14,7 @@ class GetRequester
     
   end 
  
-  def get_response_body()
+  def get_response_body
     response.body
   end 
   
