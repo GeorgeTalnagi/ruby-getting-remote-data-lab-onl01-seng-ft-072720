@@ -11,8 +11,8 @@ class GetRequester
 
 
  
-  def initialize(url)
-    url = https://learn-co-curriculum.github.io/json-site-example/endpoints/locations.json
+  def initialize(https://learn-co-curriculum.github.io/json-site-example/endpoints/locations.json)
+    
   end 
  
   def get_response_body
