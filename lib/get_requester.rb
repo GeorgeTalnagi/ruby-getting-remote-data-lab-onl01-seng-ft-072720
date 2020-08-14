@@ -14,9 +14,8 @@ class GetRequester
   end 
  
   def get_response_body
-    url = "https://learn-co-curriculum.github.io/json-site-example/endpoints/locations.json"
-    hash = JSON.parse(resp.body, symbolize_names:true)
-    arr = hash[:results]
+   
+  
 
 
   end 
