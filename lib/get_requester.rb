@@ -25,3 +25,6 @@ class GetRequester
   end 
  
 end 
+
+hash = JSON.parse(resp.body, symbolize_names:true)
+poke_arr = hash[:results]
